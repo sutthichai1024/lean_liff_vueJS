@@ -7,7 +7,13 @@
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  beforeCreate () {
+    this.$liff.init({ liffId: '1654393024-rak211lG' })
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
